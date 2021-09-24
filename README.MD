@@ -14,6 +14,7 @@ This project use:
 ## Launch
 
  To launch the program just copy the files in one folder, and run in your teminal:
+
 ```
 cd ../folder
 node messageGenerator.js
