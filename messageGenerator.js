@@ -11,16 +11,15 @@ function randomValue(arr){
 let messageArr =[];
 
 for (el in message){
-    console.log(el);
     switch (el) {
         case 'sign':
-            messageArr.push(randomValue(message[el]));
+            messageArr.push('Your sign is: ' + randomValue(message[el]));
             break;
         case 'having':
-            messageArr.push(randomValue(message[el]));
+            messageArr.push('Your are having ' + randomValue(message[el]));
             break;
         case 'should':
-            messageArr.push(randomValue(message[el]));
+            messageArr.push('Your should ' + randomValue(message[el]));
             break;
         default:
             break;
@@ -28,8 +27,10 @@ for (el in message){
 
 }
 
-console.log(messageArr);
+console.log(messageArr.join('\n'));
 
+/*
 console.log('Your sign is: ' + message.sign[Math.floor(Math.random()*message.sign.length)]);
 console.log('Your are having ' + message.having[Math.floor(Math.random()*message.having.length)]);
 console.log('Your should ' + message.should[Math.floor(Math.random()*message.should.length)]);
+*/
