@@ -18,3 +18,9 @@ This project use:
 cd ../folder
 node messageGenerator.js
 ```
+
+## Files
+
+The files included are:
+
+* messageGenerator.js
